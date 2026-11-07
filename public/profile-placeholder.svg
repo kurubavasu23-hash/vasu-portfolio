@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0f24"/>
+      <stop offset="50%" stop-color="#111a3a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="50" y1="50" x2="350" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="200" r="165" stroke="url(#accentGrad)" stroke-width="2" stroke-dasharray="8 8" opacity="0.4"/>
+  <circle cx="200" cy="150" r="58" fill="url(#accentGrad)" opacity="0.85"/>
+  <path d="M95 340C95 278 140 240 200 240C260 240 305 278 305 340" fill="url(#accentGrad)" opacity="0.85"/>
+  <rect x="115" y="325" width="170" height="36" rx="18" fill="#050816" stroke="url(#accentGrad)" stroke-width="2"/>
+  <text x="200" y="348" text-anchor="middle" fill="#e2e8f0" font-family="monospace" font-weight="bold" font-size="14">KURUBA VASU</text>
+</svg>
